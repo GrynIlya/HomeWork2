@@ -34,7 +34,7 @@ if (isNaN(orangesPrice)) {
     console.log('Ошибка!Вы ввели не число');
 } else if (orangesPrice > 0) {
     console.log('Вы ввели положительное число');
-    totalPrice = orangesPrice + orangesPrice * (orangesProfit / 100);
+    totalPrice = +orangesPrice + orangesPrice * (orangesProfit / 100);
     console.log(`Цена на апельсины:
     ${totalPrice.toFixed(2)} грн`);
 } else {
