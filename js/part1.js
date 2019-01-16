@@ -1,7 +1,7 @@
 // новый ценник на яблоки
 
-let applesPrice = 'apples';
-let applesDiscount ='apples';
+let applesPrice =30;
+let applesDiscount =10;
 let totalPrice;
 
 console.log(!isNaN(applesDiscount));
